@@ -71,7 +71,7 @@ main #sample .gallery img { width: 50%; }
   main .popup h1 { display: block; padding-top: 8%; }
   main .popup span { padding-bottom: 5%; }
   main .popup ul li { width: 50%; height: auto; }
-  main #etc { width: 100%; height: 100vh; float: none; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+  main #etc { width: 100%; height: 100vh; float: none; display: block; }
   main #etc .logo { padding: 2% 0; }
   main #etc .menu { padding: 2% 0; }
   main #etc .notice { padding: 4% 0; }
@@ -85,6 +85,6 @@ main #sample .gallery img { width: 50%; }
   @keyframes sita { 0% { -webkit-transform: translate(0, 0); transform: translate(0, 0); }
     50% { -webkit-transform: translate(0, 4px); transform: translate(0, 4px); }
     100% { -webkit-transform: translate(0, 8px); transform: translate(0, 8px); } }
-  main #sample { width: 100%; height: 100vh; float: none; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
-  main #sample img { width: 50%; height: auto; } }
+  main #sample { width: 100%; height: 100vh; float: none; display: block; }
+  main #sample img { width: 50%; height: 25%; } }
 /*# sourceMappingURL=style.css.map */

@@ -202,8 +202,7 @@ main{
             width:100%;
             height:100vh;
             float:none;
-            display:flex;
-            flex-direction: column;
+            display:block;
             .logo{
                 padding:2% 0;
             }
@@ -250,11 +249,10 @@ main{
             width:100%;
             height:100vh;
             float:none;
-            display:flex;
-            flex-direction: column;
+            display:block;
             img{
                 width:50%;
-                height:auto;
+                height:25%;
             }
         }
     }
