@@ -73,7 +73,7 @@ main #sample .gallery img { width: 50%; }
   main .popup ul li { width: 50%; height: auto; }
   main #etc { width: 100%; float: none; }
   main #etc .mediaslide { position: absolute; left: 45%; top: 93%; -webkit-animation: sita .8s linear infinite; animation: sita .8s linear infinite; }
-  main #etc .mediaslide span:nth-of-type(1) { display: inline-block; margin: 0; padding: 0; width: 20px; height: 3px; border-radius: 80px; background: #4f5b68; -webkit-transform: translateX(7px) rotate(45deg); transform: translateX(7px) rotate(45deg); }
+  main #etc .mediaslide span:nth-of-type(1) { display: inline-block; margin: 0; padding: 0; width: 20px; height: 3px; border-radius: 80px; background: #4f5b68; -webkit-transform: translateX(6px) rotate(45deg); transform: translateX(6px) rotate(45deg); }
   main #etc .mediaslide span:nth-of-type(2) { display: inline-block; margin: 0; padding: 0; width: 20px; height: 3px; border-radius: 80px; background: #4f5b68; -webkit-transform: translateX(-6px) rotate(-45deg); transform: translateX(-6px) rotate(-45deg); }
   @-webkit-keyframes sita { 0% { -webkit-transform: translate(0, 0); transform: translate(0, 0); }
     50% { -webkit-transform: translate(0, 4px); transform: translate(0, 4px); }
@@ -81,6 +81,6 @@ main #sample .gallery img { width: 50%; }
   @keyframes sita { 0% { -webkit-transform: translate(0, 0); transform: translate(0, 0); }
     50% { -webkit-transform: translate(0, 4px); transform: translate(0, 4px); }
     100% { -webkit-transform: translate(0, 8px); transform: translate(0, 8px); } }
-  main #sample { width: 100%; float: none; }
+  main #sample { width: 100%; height: 100%; float: none; }
   main #sample img { width: 50%; height: auto; } }
 /*# sourceMappingURL=style.css.map */
