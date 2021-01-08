@@ -66,12 +66,14 @@ main #sample .gallery { width: 100%; display: -webkit-box; display: -ms-flexbox;
 
 main #sample .gallery img { width: 50%; }
 
-@media (max-width: 1100px) { main { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; font-size: .8em; width: 100%; height: 100%; overflow-x: hidden; overflow-y: scroll; }
+@media (max-width: 1100px) { main { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; font-size: .8em; width: 100%; overflow-x: hidden; overflow-y: scroll; }
   main .popup { overflow-y: scroll; }
   main .popup h1 { display: block; padding-top: 8%; }
   main .popup span { padding-bottom: 5%; }
   main .popup ul li { width: 50%; height: auto; }
   main #etc { width: 100%; height: 100%; display: block; float: none; }
+  main #etc .logo { padding: 2% 0; }
+  main #etc .menu { padding: 2% 0; }
   main #etc .mediaslide { position: absolute; left: 45%; top: 93%; -webkit-animation: sita .8s linear infinite; animation: sita .8s linear infinite; }
   main #etc .mediaslide span:nth-of-type(1) { display: inline-block; margin: 0; padding: 0; width: 20px; height: 3px; border-radius: 80px; background: #4f5b68; -webkit-transform: translateX(4.5px) rotate(45deg); transform: translateX(4.5px) rotate(45deg); }
   main #etc .mediaslide span:nth-of-type(2) { display: inline-block; margin: 0; padding: 0; width: 20px; height: 3px; border-radius: 80px; background: #4f5b68; -webkit-transform: translateX(-6px) rotate(-45deg); transform: translateX(-6px) rotate(-45deg); }
