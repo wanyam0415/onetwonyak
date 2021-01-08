@@ -66,7 +66,7 @@ main #sample .gallery { width: 100%; display: -webkit-box; display: -ms-flexbox;
 
 main #sample .gallery img { width: 50%; }
 
-@media (max-width: 1100px) { main { display: block; font-size: .8em; width: 100%; height: 100%; overflow-x: hidden; overflow-y: scroll; }
+@media (max-width: 1100px) { main { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; font-size: .8em; width: 100%; height: 100%; overflow-x: hidden; overflow-y: scroll; }
   main .popup { overflow-y: scroll; }
   main .popup h1 { display: block; padding-top: 8%; }
   main .popup span { padding-bottom: 5%; }
