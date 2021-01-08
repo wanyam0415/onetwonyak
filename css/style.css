@@ -1,0 +1,85 @@
+html, body { margin: 0; padding: 0; }
+
+* { color: #4f5b68; }
+
+li, ul { list-style: none; padding: 0; margin: 0; }
+
+main { width: 100%; height: 100vh; overflow: hidden; position: relative; }
+
+main .popup { display: none; -webkit-transition: .5s; transition: .5s; width: 100%; height: 100vh; z-index: 5; position: absolute; background: rgba(0, 0, 0, 0.5); }
+
+main .popup h1 { text-align: center; color: #fff; font-weight: 400; padding-top: 2%; margin: 0; }
+
+main .popup span { color: #fff; display: block; padding: 0; margin: 0; font-size: .8em; text-align: center; padding-bottom: 2%; }
+
+main .popup ul { width: 100%; height: 90vh; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+main .popup ul li { width: 25%; height: 35%; display: block; text-align: center; }
+
+main .popup ul li img { width: 60%; background: #fff; }
+
+main .popup ul li span { display: block; color: #fff; }
+
+main #etc { width: 30%; height: 100vh; float: left; background: linear-gradient(55deg, #f0f0f5, #fff); position: relative; }
+
+main #etc .logo { width: 100%; height: 20%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+main #etc .logo img { width: 50%; }
+
+main #etc .menu { padding-top: 2%; width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; }
+
+main #etc .menu a { width: 20%; text-align: center; text-decoration: none; color: #4f5b68; padding: 1.5% 3%; border: 2px solid #495663; border-radius: 60px; -webkit-transition: .5s; transition: .5s; font-size: .9em; }
+
+main #etc .menu a:hover { background: #495663; color: #fff; }
+
+main #etc .menu a.on { background: #495663; color: #fff; font-weight: bold; }
+
+main #etc .notice { display: none; width: 95%; margin: 0 auto; position: absolute; left: 2%; top: 28%; }
+
+main #etc .notice p { font-size: .8em; white-space: pre-line; }
+
+main #etc .form { display: none; width: 95%; margin: 0 auto; position: absolute; left: 2%; top: 28%; }
+
+main #etc .form span { position: absolute; top: 0%; left: 7%; -webkit-transform: rotate(-15deg); transform: rotate(-15deg); }
+
+main #etc .form span img { width: 45%; }
+
+main #etc .form span img:hover { -webkit-transform: rotate(-7deg); transform: rotate(-7deg); }
+
+main #etc .form .imgline { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+main #etc .form .imgline img { width: 75%; }
+
+main #etc .form .textline { font-size: .8em; }
+
+main #etc .form .textline p { padding-left: 2%; white-space: pre-line; }
+
+main #etc .form .textline span { display: block; text-align: right; }
+
+main #etc .form .textline a { font-weight: bold; text-decoration: none; display: block; text-align: right; }
+
+main #etc .on { display: block; }
+
+main #sample { width: 70%; height: 100vh; float: right; overflow-y: scroll; }
+
+main #sample .gallery { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+main #sample .gallery img { width: 50%; }
+
+@media (max-width: 1100px) { main { font-size: .8em; width: 100%; overflow-x: hidden; overflow-y: scroll; }
+  main .popup { overflow-y: scroll; }
+  main .popup h1 { display: block; padding-top: 8%; }
+  main .popup span { padding-bottom: 5%; }
+  main .popup ul li { width: 50%; height: auto; }
+  main #etc { width: 100%; float: none; }
+  main #etc .mediaslide { position: absolute; left: 45%; top: 93%; -webkit-animation: sita .8s linear infinite; animation: sita .8s linear infinite; }
+  main #etc .mediaslide span:nth-of-type(1) { display: inline-block; margin: 0; padding: 0; width: 20px; height: 3px; border-radius: 80px; background: #4f5b68; -webkit-transform: translateX(7px) rotate(45deg); transform: translateX(7px) rotate(45deg); }
+  main #etc .mediaslide span:nth-of-type(2) { display: inline-block; margin: 0; padding: 0; width: 20px; height: 3px; border-radius: 80px; background: #4f5b68; -webkit-transform: translateX(-6px) rotate(-45deg); transform: translateX(-6px) rotate(-45deg); }
+  @-webkit-keyframes sita { 0% { -webkit-transform: translate(0, 0); transform: translate(0, 0); }
+    50% { -webkit-transform: translate(0, 4px); transform: translate(0, 4px); }
+    100% { -webkit-transform: translate(0, 8px); transform: translate(0, 8px); } }
+  @keyframes sita { 0% { -webkit-transform: translate(0, 0); transform: translate(0, 0); }
+    50% { -webkit-transform: translate(0, 4px); transform: translate(0, 4px); }
+    100% { -webkit-transform: translate(0, 8px); transform: translate(0, 8px); } }
+  main #sample { width: 100%; float: none; } }
+/*# sourceMappingURL=style.css.map */
